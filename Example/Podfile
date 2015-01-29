@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'QQSDK', :exclusive => true do
+  pod "QQSDK", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "QQSDK", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
