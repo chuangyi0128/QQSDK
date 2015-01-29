@@ -9,30 +9,22 @@
 
 Pod::Spec.new do |s|
   s.name             = "QQSDK"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of QQSDK."
-  s.description      = <<-DESC
-                       An optional longer description of QQSDK
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/QQSDK"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.version          = "2.3.1"
+  s.summary          = "QQ SDK v2.3.1"
+  s.description      = "QQ SDK v2.3.1 arm64"
+  s.homepage         = "https://github.com/chuangyi0128/QQSDK"
   s.license          = 'MIT'
   s.author           = { "SongLi" => "chuangyi0128@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/QQSDK.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/chuangyi0128/QQSDK.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '5.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes'
-  s.resource_bundles = {
-    'QQSDK' => ['Pod/Assets/*.png']
-  }
+  s.source_files = 'QQSDK/TencentOpenAPI.framework/Headers'
+  s.resource = 'QQSDK/TencentOpenApi_IOS_Bundle.bundle'
+  s.vendored_frameworks = 'QQSDK/TencentOpenAPI.framework'
+  s.libraries = 'stdc++','z','sqlite3','iconv'
+  s.frameworks = 'Security', 'SystemConfiguration','CoreGraphics','CoreTelephony'
+  s.xcconfig = { 'OTHER_LDFLAGS' => '-fobjc-arc' }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

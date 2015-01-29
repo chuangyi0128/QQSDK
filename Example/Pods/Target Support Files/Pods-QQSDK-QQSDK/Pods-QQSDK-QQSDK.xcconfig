@@ -1,0 +1,2 @@
+PODS_QQSDK_QQSDK_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/../../QQSDK"
+PODS_QQSDK_QQSDK_OTHER_LDFLAGS = -fobjc-arc -l"iconv" -l"sqlite3" -l"stdc++" -l"z" -framework "CoreGraphics" -framework "CoreTelephony" -framework "Security" -framework "SystemConfiguration" -framework "TencentOpenAPI"

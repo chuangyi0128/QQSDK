@@ -1,0 +1,14 @@
+PODS:
+  - QQSDK (2.3.1)
+
+DEPENDENCIES:
+  - QQSDK (from `../`)
+
+EXTERNAL SOURCES:
+  QQSDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QQSDK: f2f59420e2820c1ba942d55bdc0469b394d8cba7
+
+COCOAPODS: 0.34.4

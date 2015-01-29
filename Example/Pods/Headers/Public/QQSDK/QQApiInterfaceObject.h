@@ -1,0 +1,1 @@
+../../../../../QQSDK/TencentOpenAPI.framework/Headers/QQApiInterfaceObject.h
