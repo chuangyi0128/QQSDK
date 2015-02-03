@@ -32,8 +32,6 @@
 {
     if (![self.oauth isSessionValid]) {
         [self.oauth authorize:@[kOPEN_PERMISSION_GET_INFO,
-                                kOPEN_PERMISSION_GET_USER_INFO,
-                                kOPEN_PERMISSION_GET_SIMPLE_USER_INFO,
                                 kOPEN_PERMISSION_ADD_TOPIC,
                                 kOPEN_PERMISSION_ADD_PIC_T]];
     } else {
