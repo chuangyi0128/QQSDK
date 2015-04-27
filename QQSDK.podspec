@@ -9,9 +9,9 @@
 
 Pod::Spec.new do |s|
   s.name             = "QQSDK"
-  s.version          = "2.8.1"
-  s.summary          = "QQ SDK v2.8.1"
-  s.description      = "QQ SDK v2.8.1 arm64"
+  s.version          = "2.9.0"
+  s.summary          = "QQ SDK"
+  s.description      = "QQ SDK arm64"
   s.homepage         = "https://github.com/chuangyi0128/QQSDK"
   s.license          = 'MIT'
   s.author           = { "SongLi" => "chuangyi0128@gmail.com" }

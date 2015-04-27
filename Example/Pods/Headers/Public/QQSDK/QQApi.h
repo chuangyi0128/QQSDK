@@ -1,1 +1,0 @@
-../../../../../QQSDK/TencentOpenAPI.framework/Headers/QQApi.h

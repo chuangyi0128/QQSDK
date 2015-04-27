@@ -1,2008 +1,763 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>02A3B43CB8623C13B6C43AB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>ED39B0E7B696444CD6BC2F21</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>049AAC75E743EAEF53DDBA8D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A071E8AFF10ED0017DBAA96D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>04D805E7B28E5DE4BCBE1512</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-QQSDK-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>05B48DB62AA346D332FB2D82</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0A0C8933E86A0BC9AD07EF37</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0A2F9D0A0BD3798C9B843CD1</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A8A1D4F152BEB06F55B46742</string>
-				<string>19872E58EC5625981773359D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>0AE61C4B94106030CD5E3F4C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>20486B6B68AC5E534A74088D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>12A2BBB264641354F1D8C735</key>
-		<dict>
-			<key>fileRef</key>
-			<string>83F84DCF93BFA80950AED45A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>12D8F0C32C12F06503AB6B34</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.plug-in</string>
-			<key>name</key>
-			<string>TencentOpenApi_IOS_Bundle.bundle</string>
-			<key>path</key>
-			<string>QQSDK/TencentOpenApi_IOS_Bundle.bundle</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14476AE2E53C0065A879F1E8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-QQSDK-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-QQSDK/Pods-Tests-QQSDK-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>17B95D9DDC2F93C7872C556D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>19872E58EC5625981773359D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>1B36BE43086037C98D5D5CE9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>1EE5D614395B4B46299DF042</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4829516C347636AA44B5A43B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>20486B6B68AC5E534A74088D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TencentMessageObject.h</string>
-			<key>path</key>
-			<string>QQSDK/TencentOpenAPI.framework/Headers/TencentMessageObject.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>218865678113F90B1EC9AEA5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6A9252E6AE979B1E8EAEDCFC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>231AEEDF794A0D7A1EBF7FAA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>CFB719C5B924C42D062ADFCB</string>
-			<key>targetProxy</key>
-			<string>91B38699C7DED5008ECD4851</string>
-		</dict>
-		<key>2531631DB09347B92B6F421E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>28EC9A5E32D8D7C304F561ED</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>14476AE2E53C0065A879F1E8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-QQSDK/Pods-Tests-QQSDK-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2AA6BE1E69F58654047347F9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EDC9E52732C2C9F07224610A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2C09B78D0C15260F3050E9CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C46C6CC0BC7729242BBF88BF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2C0BE91DE5024A86023AE255</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FEC90077D798C132E734EFF</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F427FB6EEBD64727E8C2345E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-QQSDK-QQSDK/Pods-QQSDK-QQSDK-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3266B5E7096BF7C4F105D275</key>
-		<dict>
-			<key>fileRef</key>
-			<string>539AD1BB33AD1F80B0010378</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>338C59ADC11D1CBB94893178</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>37ED80D7D54F5E993760C938</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4572861754693C582299556E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3AE6E41784D7FA1B674F180B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C597FBBE77D9776E8BAB16F9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3CFBCD82E64948847D333047</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests-QQSDK.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>434988F79070ACDB2F864038</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C86654080A917A070B5A6B90</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>44A305DD451F06A49912D553</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>D92F512CFCF9D5B82B9BD96F</string>
-			<key>targetProxy</key>
-			<string>F82EDB4A292E856E20607581</string>
-		</dict>
-		<key>4572861754693C582299556E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TencentOAuth.h</string>
-			<key>path</key>
-			<string>QQSDK/TencentOpenAPI.framework/Headers/TencentOAuth.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4829516C347636AA44B5A43B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-QQSDK-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>48BC7D380F441F9FBDBCB14C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>EA1521907FACDB6D22329D17</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4B0121949E0DCE2A1F21A6F3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A593A962313C88EF0CBC4B40</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4BCC3CEA87DA5D5805E92429</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7C8D2C1CB01996EF581CFF0B</string>
-				<string>D8CB1D85A3A957DB60D761D4</string>
-				<string>C597FBBE77D9776E8BAB16F9</string>
-				<string>96A7FDE833469F9BDB8FB475</string>
-				<string>20486B6B68AC5E534A74088D</string>
-				<string>4572861754693C582299556E</string>
-				<string>A593A962313C88EF0CBC4B40</string>
-				<string>987B01D3F84840569DFB7B9E</string>
-				<string>C46C6CC0BC7729242BBF88BF</string>
-				<string>A071E8AFF10ED0017DBAA96D</string>
-				<string>02A3B43CB8623C13B6C43AB0</string>
-				<string>C95D3DA4AFF20B5D47CE0AE1</string>
-				<string>68897F4C939B63245CAC62A3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>QQSDK</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E8B4F46D4DF2C9AC78FBF22</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DF2DC6D08655C3CECE45E127</string>
-				<string>A6D1AC07B0C15FAFA9568FDB</string>
-				<string>539AD1BB33AD1F80B0010378</string>
-				<string>83F84DCF93BFA80950AED45A</string>
-				<string>6A9252E6AE979B1E8EAEDCFC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5026581B4D0825CF3F6E570B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>96A7FDE833469F9BDB8FB475</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>520E4DAA0209FE53025F9810</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-QQSDK-QQSDK-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>539AD1BB33AD1F80B0010378</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>5E3693B23C51A126D364D612</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C46C6CC0BC7729242BBF88BF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>612F89708F030D23CC662AB9</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-QQSDK.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>654C0F0B101DD06915161781</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-QQSDK-QQSDK-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>68897F4C939B63245CAC62A3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F6BAC3416FCE0609CA3698A7</string>
-				<string>F427FB6EEBD64727E8C2345E</string>
-				<string>520E4DAA0209FE53025F9810</string>
-				<string>654C0F0B101DD06915161781</string>
-				<string>A469844F33C8B0568C4625AA</string>
-				<string>14476AE2E53C0065A879F1E8</string>
-				<string>A78D0BBF7EE6E80425DD4FE9</string>
-				<string>D8E08CB22455DD3FA2D9EB2A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-QQSDK-QQSDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>69EA6AAB9BA458FAD757AAB9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6A9252E6AE979B1E8EAEDCFC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6A9252E6AE979B1E8EAEDCFC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SystemConfiguration.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>6E93FBD73A7661304E19D76A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D8CB1D85A3A957DB60D761D4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>70011ABFD92DD3422D1EC673</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>C581443801F316C0F2B76944</string>
-				<string>9D39B8BD2207FC7C5AC8A966</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7057621574FFE78D97724CBC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F1DE6593DFC9D7401E607875</string>
-				<string>F2376D6A2AFC5A0034671B37</string>
-				<string>3266B5E7096BF7C4F105D275</string>
-				<string>ABED01D77652E1441EF37CE0</string>
-				<string>69EA6AAB9BA458FAD757AAB9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>71F8D80545168BD08C792CBC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>17B95D9DDC2F93C7872C556D</string>
-				<string>A88E86792400886DD879E1CE</string>
-				<string>2C0BE91DE5024A86023AE255</string>
-				<string>05B48DB62AA346D332FB2D82</string>
-				<string>2531631DB09347B92B6F421E</string>
-				<string>0A0C8933E86A0BC9AD07EF37</string>
-				<string>338C59ADC11D1CBB94893178</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>71FE0836699F5B384A2D1E1C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4572861754693C582299556E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7471B886FEAA65DDD88CB226</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A593A962313C88EF0CBC4B40</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7565C9C5AEB327DA1F769904</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E8B4F46D4DF2C9AC78FBF22</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7C8D2C1CB01996EF581CFF0B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>QQApi.h</string>
-			<key>path</key>
-			<string>QQSDK/TencentOpenAPI.framework/Headers/QQApi.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D896CEE11DBC69189AC2494</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8D33F83A02494BF84D22F948</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7DD84691CBB5C61340C67CF4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>987B01D3F84840569DFB7B9E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7E1E731F3E9B7BFA958B81A8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>612F89708F030D23CC662AB9</string>
-				<string>9549883823471AED3DD879D2</string>
-				<string>99845509A1FBA63C426C3853</string>
-				<string>3CFBCD82E64948847D333047</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>813FBF820C402D2CDB89F298</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2FEC90077D798C132E734EFF</string>
-				<string>A94A8041EC26A813C364BDE5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8194EDE6AFB4CBB875767882</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A6D1AC07B0C15FAFA9568FDB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>83F84DCF93BFA80950AED45A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Security.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>86AEE289F1A15A382CAA3794</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>DE283767FEA120167621391A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FEF77B9D23B37CA1258BA4EF</string>
-				<string>D0EB28A698BB478B15480F30</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>231AEEDF794A0D7A1EBF7FAA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-QQSDK</string>
-			<key>productName</key>
-			<string>Pods-QQSDK</string>
-			<key>productReference</key>
-			<string>612F89708F030D23CC662AB9</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>8CD622EA6A8CBE9165031803</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>14476AE2E53C0065A879F1E8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-QQSDK/Pods-Tests-QQSDK-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8D33F83A02494BF84D22F948</key>
-		<dict>
-			<key>fileRef</key>
-			<string>539AD1BB33AD1F80B0010378</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>90BA329D4E191E508EC09E60</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7C8D2C1CB01996EF581CFF0B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>91B38699C7DED5008ECD4851</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>B55346DB09D7877325F999DE</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>CFB719C5B924C42D062ADFCB</string>
-			<key>remoteInfo</key>
-			<string>Pods-QQSDK-QQSDK</string>
-		</dict>
-		<key>9549883823471AED3DD879D2</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-QQSDK-QQSDK.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>96A7FDE833469F9BDB8FB475</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TencentApiInterface.h</string>
-			<key>path</key>
-			<string>QQSDK/TencentOpenAPI.framework/Headers/TencentApiInterface.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>987B01D3F84840569DFB7B9E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WeiBoAPI.h</string>
-			<key>path</key>
-			<string>QQSDK/TencentOpenAPI.framework/Headers/WeiBoAPI.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>99845509A1FBA63C426C3853</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9BFFA09119588AD8D37A2FF0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8CD622EA6A8CBE9165031803</string>
-				<string>28EC9A5E32D8D7C304F561ED</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9D39B8BD2207FC7C5AC8A966</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>338C59ADC11D1CBB94893178</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A071E8AFF10ED0017DBAA96D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>sdkdef.h</string>
-			<key>path</key>
-			<string>QQSDK/TencentOpenAPI.framework/Headers/sdkdef.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A082FADED23D5B572CDF0968</key>
-		<dict>
-			<key>fileRef</key>
-			<string>539AD1BB33AD1F80B0010378</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A45C7664C161B69FCB0F076C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-QQSDK-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A469844F33C8B0568C4625AA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-QQSDK.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-QQSDK/Pods-Tests-QQSDK.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A593A962313C88EF0CBC4B40</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TencentOAuthObject.h</string>
-			<key>path</key>
-			<string>QQSDK/TencentOpenAPI.framework/Headers/TencentOAuthObject.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A6D1AC07B0C15FAFA9568FDB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreTelephony.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreTelephony.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>A78D0BBF7EE6E80425DD4FE9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-Tests-QQSDK-dummy.m</string>
-			<key>path</key>
-			<string>../Pods-Tests-QQSDK/Pods-Tests-QQSDK-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A88E86792400886DD879E1CE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A8A1D4F152BEB06F55B46742</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>A94A8041EC26A813C364BDE5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F427FB6EEBD64727E8C2345E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-QQSDK-QQSDK/Pods-QQSDK-QQSDK-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A9B431B46376D5569EA17B31</key>
-		<dict>
-			<key>fileRef</key>
-			<string>987B01D3F84840569DFB7B9E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ABED01D77652E1441EF37CE0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>83F84DCF93BFA80950AED45A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ADF71F2B507752AA3930650F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>90BA329D4E191E508EC09E60</string>
-				<string>6E93FBD73A7661304E19D76A</string>
-				<string>3AE6E41784D7FA1B674F180B</string>
-				<string>5026581B4D0825CF3F6E570B</string>
-				<string>E7525E42893C5EA70582BBC3</string>
-				<string>71FE0836699F5B384A2D1E1C</string>
-				<string>4B0121949E0DCE2A1F21A6F3</string>
-				<string>A9B431B46376D5569EA17B31</string>
-				<string>5E3693B23C51A126D364D612</string>
-				<string>C08BA404874220BCF614A10F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>AF03DBEAB27DAB51A5487744</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4BCC3CEA87DA5D5805E92429</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B428021577AC1EA0B3F9BB95</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A45C7664C161B69FCB0F076C</string>
-				<string>E3681EA16E721C31353C62FD</string>
-				<string>4829516C347636AA44B5A43B</string>
-				<string>04D805E7B28E5DE4BCBE1512</string>
-				<string>D106928126E3FD34AE798A95</string>
-				<string>EA1521907FACDB6D22329D17</string>
-				<string>CB8D108369D12CCD5EAC679B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-QQSDK</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-QQSDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B55346DB09D7877325F999DE</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>0A2F9D0A0BD3798C9B843CD1</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>FA73732A59A2DE5A1244D1EF</string>
-			<key>productRefGroup</key>
-			<string>7E1E731F3E9B7BFA958B81A8</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>86AEE289F1A15A382CAA3794</string>
-				<string>CFB719C5B924C42D062ADFCB</string>
-				<string>EC2945467C42CFB10CE168B1</string>
-				<string>D92F512CFCF9D5B82B9BD96F</string>
-			</array>
-		</dict>
-		<key>BC4885E5E0618E835952663D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C597FBBE77D9776E8BAB16F9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BFF0DC43DAC41A7319B14539</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DF2DC6D08655C3CECE45E127</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C0107CEEE7DB2D48561EBB75</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D8CB1D85A3A957DB60D761D4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C08BA404874220BCF614A10F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A071E8AFF10ED0017DBAA96D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C30CECFE7FD8067EE47783AC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F3C4E0136639ED47105BE0EA</string>
-				<string>C0107CEEE7DB2D48561EBB75</string>
-				<string>BC4885E5E0618E835952663D</string>
-				<string>D1CF47EAFCB6644024D8EAD4</string>
-				<string>0AE61C4B94106030CD5E3F4C</string>
-				<string>37ED80D7D54F5E993760C938</string>
-				<string>7471B886FEAA65DDD88CB226</string>
-				<string>7DD84691CBB5C61340C67CF4</string>
-				<string>2C09B78D0C15260F3050E9CD</string>
-				<string>049AAC75E743EAEF53DDBA8D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C46C6CC0BC7729242BBF88BF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WeiyunAPI.h</string>
-			<key>path</key>
-			<string>QQSDK/TencentOpenAPI.framework/Headers/WeiyunAPI.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C581443801F316C0F2B76944</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0A0C8933E86A0BC9AD07EF37</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>C597FBBE77D9776E8BAB16F9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>QQApiInterfaceObject.h</string>
-			<key>path</key>
-			<string>QQSDK/TencentOpenAPI.framework/Headers/QQApiInterfaceObject.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C86654080A917A070B5A6B90</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2C0BE91DE5024A86023AE255</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C95D3DA4AFF20B5D47CE0AE1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>12D8F0C32C12F06503AB6B34</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CB8D108369D12CCD5EAC679B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-QQSDK.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CFB719C5B924C42D062ADFCB</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>813FBF820C402D2CDB89F298</string>
-			<key>buildPhases</key>
-			<array>
-				<string>2AA6BE1E69F58654047347F9</string>
-				<string>DA633EA6A7CF9F6C503E0F82</string>
-				<string>ADF71F2B507752AA3930650F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-QQSDK-QQSDK</string>
-			<key>productName</key>
-			<string>Pods-QQSDK-QQSDK</string>
-			<key>productReference</key>
-			<string>9549883823471AED3DD879D2</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>D0EB28A698BB478B15480F30</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A082FADED23D5B572CDF0968</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D106928126E3FD34AE798A95</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-QQSDK-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D1CF47EAFCB6644024D8EAD4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>96A7FDE833469F9BDB8FB475</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D30476D3594EC058395FDA01</key>
-		<dict>
-			<key>fileRef</key>
-			<string>539AD1BB33AD1F80B0010378</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D56730E30C596BBC148090FA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B428021577AC1EA0B3F9BB95</string>
-				<string>71F8D80545168BD08C792CBC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D813FD049915F012377D0837</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CB8D108369D12CCD5EAC679B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D8CB1D85A3A957DB60D761D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>QQApiInterface.h</string>
-			<key>path</key>
-			<string>QQSDK/TencentOpenAPI.framework/Headers/QQApiInterface.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D8E08CB22455DD3FA2D9EB2A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-Tests-QQSDK-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-Tests-QQSDK/Pods-Tests-QQSDK-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D92F512CFCF9D5B82B9BD96F</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>9BFFA09119588AD8D37A2FF0</string>
-			<key>buildPhases</key>
-			<array>
-				<string>F09F70CF781CA15EAE33BC72</string>
-				<string>7057621574FFE78D97724CBC</string>
-				<string>C30CECFE7FD8067EE47783AC</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-QQSDK</string>
-			<key>productName</key>
-			<string>Pods-Tests-QQSDK</string>
-			<key>productReference</key>
-			<string>3CFBCD82E64948847D333047</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>DA633EA6A7CF9F6C503E0F82</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BFF0DC43DAC41A7319B14539</string>
-				<string>8194EDE6AFB4CBB875767882</string>
-				<string>D30476D3594EC058395FDA01</string>
-				<string>12A2BBB264641354F1D8C735</string>
-				<string>218865678113F90B1EC9AEA5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DE283767FEA120167621391A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>48BC7D380F441F9FBDBCB14C</string>
-				<string>D813FD049915F012377D0837</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>DF2DC6D08655C3CECE45E127</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>E3681EA16E721C31353C62FD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-QQSDK-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E4A482E769147DFB14594CB8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A78D0BBF7EE6E80425DD4FE9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E7525E42893C5EA70582BBC3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>20486B6B68AC5E534A74088D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EA1521907FACDB6D22329D17</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-QQSDK.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EC2945467C42CFB10CE168B1</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>70011ABFD92DD3422D1EC673</string>
-			<key>buildPhases</key>
-			<array>
-				<string>434988F79070ACDB2F864038</string>
-				<string>7D896CEE11DBC69189AC2494</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>44A305DD451F06A49912D553</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>productName</key>
-			<string>Pods-Tests</string>
-			<key>productReference</key>
-			<string>99845509A1FBA63C426C3853</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>ED39B0E7B696444CD6BC2F21</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>TencentOpenAPI.framework</string>
-			<key>path</key>
-			<string>QQSDK/TencentOpenAPI.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC9E52732C2C9F07224610A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>520E4DAA0209FE53025F9810</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F09F70CF781CA15EAE33BC72</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E4A482E769147DFB14594CB8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F1DE6593DFC9D7401E607875</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DF2DC6D08655C3CECE45E127</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F2376D6A2AFC5A0034671B37</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A6D1AC07B0C15FAFA9568FDB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F3C4E0136639ED47105BE0EA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7C8D2C1CB01996EF581CFF0B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F427FB6EEBD64727E8C2345E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-QQSDK-QQSDK-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F6BAC3416FCE0609CA3698A7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-QQSDK-QQSDK.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F82EDB4A292E856E20607581</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>B55346DB09D7877325F999DE</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D92F512CFCF9D5B82B9BD96F</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-QQSDK</string>
-		</dict>
-		<key>FA73732A59A2DE5A1244D1EF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1B36BE43086037C98D5D5CE9</string>
-				<string>AF03DBEAB27DAB51A5487744</string>
-				<string>7565C9C5AEB327DA1F769904</string>
-				<string>7E1E731F3E9B7BFA958B81A8</string>
-				<string>D56730E30C596BBC148090FA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FEF77B9D23B37CA1258BA4EF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1EE5D614395B4B46299DF042</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>B55346DB09D7877325F999DE</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E54EB75573E436E5C79F466 /* Pods-QQSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B584E680C7257341475BAF /* Pods-QQSDK-dummy.m */; };
+		15380FD6EDD1545D7081F6C1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AB73403EAEBF482066F754 /* CoreTelephony.framework */; };
+		16ECC67484C7FF98441E7A0F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11BF29B8280960445E55B281 /* SystemConfiguration.framework */; };
+		30109365C22087F2CBCEA22B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EE7207DB05E2CA8CDEB448 /* Foundation.framework */; };
+		385FF81B8768C8F8C0F46AF6 /* TencentMessageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 50485DA0521E8982F606BDE5 /* TencentMessageObject.h */; };
+		3E074DC44422AE77F4EE9661 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11BF29B8280960445E55B281 /* SystemConfiguration.framework */; };
+		5102665F56431FAB3A65D03F /* TencentApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 85353EEC8B853F5B5B5DFEFC /* TencentApiInterface.h */; };
+		54FB316B2C1B260403CC7A5C /* QQApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = D235A26CFE43E4F78660F1DE /* QQApiInterface.h */; };
+		57197985736519B215BB719B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E165AC1CB54ADBC77B6DD9ED /* Security.framework */; };
+		5A37DE32FB144A1E02AD2F46 /* Pods-Tests-QQSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C84D501B3C705E229065B10 /* Pods-Tests-QQSDK-dummy.m */; };
+		67675E13E5BA2F7E5DC804E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EE7207DB05E2CA8CDEB448 /* Foundation.framework */; };
+		6C0457A7AF1864202C655646 /* TencentApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 85353EEC8B853F5B5B5DFEFC /* TencentApiInterface.h */; };
+		78A991DB1B1E7B18E4603CA8 /* QQApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = D235A26CFE43E4F78660F1DE /* QQApiInterface.h */; };
+		7E2CB641FB1A0596CB3D7F18 /* QQApiInterfaceObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 570BB45DE99EF21A8EDE2C3D /* QQApiInterfaceObject.h */; };
+		89AB13A02272BA470C0B694C /* Pods-QQSDK-QQSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C9FCEFCCF6129C21D11E7D /* Pods-QQSDK-QQSDK-dummy.m */; };
+		90EB8AF622719E2D14BE9606 /* TencentMessageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 50485DA0521E8982F606BDE5 /* TencentMessageObject.h */; };
+		91F10DDE155AA3ABAE570283 /* TencentOAuthObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA8539972BD0F518D35AB6A /* TencentOAuthObject.h */; };
+		A06AB8B24DB991C15FC714A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EE7207DB05E2CA8CDEB448 /* Foundation.framework */; };
+		A088779B5CC19A214EFD1C06 /* WeiyunAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5EA69D4CFF4F6D011E688E /* WeiyunAPI.h */; };
+		A9F44DDD1B6D95572AFDAC32 /* TencentOAuthObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA8539972BD0F518D35AB6A /* TencentOAuthObject.h */; };
+		AC8E4976BA3CB77DA7EBDB33 /* sdkdef.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFC84E5A12AE8925AD686F1 /* sdkdef.h */; };
+		ADE8BE41EDCFB7D6AA42D351 /* sdkdef.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFC84E5A12AE8925AD686F1 /* sdkdef.h */; };
+		B0EB8C17D822952336AADA7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D1328FD7BCB943D3A5AFCF /* CoreGraphics.framework */; };
+		BA3D495290A613BDE9F25E5D /* QQApiInterfaceObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 570BB45DE99EF21A8EDE2C3D /* QQApiInterfaceObject.h */; };
+		C2CD167434F34AE49190BE81 /* WeiyunAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5EA69D4CFF4F6D011E688E /* WeiyunAPI.h */; };
+		C829304D34D8980EEAF41F58 /* WeiBoAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DCC277555A496F61FCDF734 /* WeiBoAPI.h */; };
+		CABA32BDE371CCCF5EDA1BC0 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9136109E923982ED0CF87243 /* Pods-Tests-dummy.m */; };
+		D6E47259EE67D554856DF5A2 /* TencentOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = C2075AF1A5C4657A9C08DA18 /* TencentOAuth.h */; };
+		DD5344AA9B45AE39020CBDCB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E165AC1CB54ADBC77B6DD9ED /* Security.framework */; };
+		E047CE3D091C21F7740FDD9A /* WeiBoAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DCC277555A496F61FCDF734 /* WeiBoAPI.h */; };
+		E864282630A2C331A5FCEDD2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AB73403EAEBF482066F754 /* CoreTelephony.framework */; };
+		F146A1B5754E172DA48F2BD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D1328FD7BCB943D3A5AFCF /* CoreGraphics.framework */; };
+		F6F49CDF9984A96D2C0393DA /* TencentOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = C2075AF1A5C4657A9C08DA18 /* TencentOAuth.h */; };
+		FD5FE91ACCEDD5F6FEE9E775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EE7207DB05E2CA8CDEB448 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16A6A49DF36894F0909BC556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C6C6FA40217EE8F92EDAB21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E02B0878C44F1142FBD737CF;
+			remoteInfo = "Pods-QQSDK-QQSDK";
+		};
+		DA242FD4BCD3B9FA13B6886C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C6C6FA40217EE8F92EDAB21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 645F3F90F7E67C4DB6E07DBA;
+			remoteInfo = "Pods-Tests-QQSDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027A59C5EA1B27856ADF678B /* Pods-QQSDK-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QQSDK-environment.h"; sourceTree = "<group>"; };
+		0A5EA69D4CFF4F6D011E688E /* WeiyunAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeiyunAPI.h; sourceTree = "<group>"; };
+		0DCC277555A496F61FCDF734 /* WeiBoAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeiBoAPI.h; sourceTree = "<group>"; };
+		11BF29B8280960445E55B281 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		1531EF61459AF43F50ADD366 /* Pods-QQSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QQSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D1DFC7362B32B2CDE885025 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1FA8539972BD0F518D35AB6A /* TencentOAuthObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOAuthObject.h; sourceTree = "<group>"; };
+		1FEBDD188DF1ED882EBD5E65 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		27654CD3C1AF196B376CEA9A /* Pods-QQSDK-QQSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQSDK-QQSDK.xcconfig"; sourceTree = "<group>"; };
+		29671242A1FF14EC3609A960 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EE7EE15FA13DD1E4C8806EC /* Pods-QQSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		3292300B552EFEEC9CBD677F /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35CAD4C9D9BDE94127608A1E /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		35FC134273BD0757FCFB3A18 /* Pods-Tests-QQSDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-QQSDK-Private.xcconfig"; path = "../Pods-Tests-QQSDK/Pods-Tests-QQSDK-Private.xcconfig"; sourceTree = "<group>"; };
+		3C84D501B3C705E229065B10 /* Pods-Tests-QQSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-QQSDK-dummy.m"; path = "../Pods-Tests-QQSDK/Pods-Tests-QQSDK-dummy.m"; sourceTree = "<group>"; };
+		3DB2706E4EEA94C4D07276F8 /* Pods-Tests-QQSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-QQSDK.xcconfig"; path = "../Pods-Tests-QQSDK/Pods-Tests-QQSDK.xcconfig"; sourceTree = "<group>"; };
+		50485DA0521E8982F606BDE5 /* TencentMessageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentMessageObject.h; sourceTree = "<group>"; };
+		570BB45DE99EF21A8EDE2C3D /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterfaceObject.h; sourceTree = "<group>"; };
+		62B584E680C7257341475BAF /* Pods-QQSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QQSDK-dummy.m"; sourceTree = "<group>"; };
+		65D1328FD7BCB943D3A5AFCF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		791B6B88E8C76E24EFC288E3 /* libPods-Tests-QQSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-QQSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85353EEC8B853F5B5B5DFEFC /* TencentApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentApiInterface.h; sourceTree = "<group>"; };
+		88BB07E5FAEC32CAD367603A /* Pods-QQSDK-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QQSDK-resources.sh"; sourceTree = "<group>"; };
+		89DD4597F714854A2F84D59B /* Pods-QQSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QQSDK-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B1C0A6631E66DA7A7307B18 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		901E4622CACE17BC12D8315A /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = QQSDK/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		9136109E923982ED0CF87243 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		99EE7207DB05E2CA8CDEB448 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9EF465622487BBF7B490ED0C /* libPods-QQSDK-QQSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QQSDK-QQSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7C7F31EFA9B61BDA901278 /* Pods-QQSDK-QQSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QQSDK-QQSDK-prefix.pch"; sourceTree = "<group>"; };
+		ACFC84E5A12AE8925AD686F1 /* sdkdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sdkdef.h; sourceTree = "<group>"; };
+		B6AF2B26C6DFE102C0A3D4C2 /* Pods-QQSDK-QQSDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQSDK-QQSDK-Private.xcconfig"; sourceTree = "<group>"; };
+		C2075AF1A5C4657A9C08DA18 /* TencentOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOAuth.h; sourceTree = "<group>"; };
+		CAD35C764A978A5B2059B3AD /* libPods-QQSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QQSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D235A26CFE43E4F78660F1DE /* QQApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterface.h; sourceTree = "<group>"; };
+		DA820FF81F17053AF6AB385F /* Pods-Tests-QQSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-QQSDK-prefix.pch"; path = "../Pods-Tests-QQSDK/Pods-Tests-QQSDK-prefix.pch"; sourceTree = "<group>"; };
+		E165AC1CB54ADBC77B6DD9ED /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		E2AB73403EAEBF482066F754 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		E5C9FCEFCCF6129C21D11E7D /* Pods-QQSDK-QQSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QQSDK-QQSDK-dummy.m"; sourceTree = "<group>"; };
+		EC8BEBBBE8BEDBA8783176AA /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		ED719B1735D7F2E8435A76BC /* Pods-QQSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQSDK.release.xcconfig"; sourceTree = "<group>"; };
+		F02A50B8391D18687D7AE6F6 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBD9D52379AC5198BAD3EB0 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044DFEBC9252ADFDBFAA14DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F146A1B5754E172DA48F2BD0 /* CoreGraphics.framework in Frameworks */,
+				15380FD6EDD1545D7081F6C1 /* CoreTelephony.framework in Frameworks */,
+				67675E13E5BA2F7E5DC804E6 /* Foundation.framework in Frameworks */,
+				DD5344AA9B45AE39020CBDCB /* Security.framework in Frameworks */,
+				16ECC67484C7FF98441E7A0F /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F62C092A80C1213AFDBF073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5FE91ACCEDD5F6FEE9E775 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F680C7861DBA8F8520B55EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EB8C17D822952336AADA7B /* CoreGraphics.framework in Frameworks */,
+				E864282630A2C331A5FCEDD2 /* CoreTelephony.framework in Frameworks */,
+				A06AB8B24DB991C15FC714A9 /* Foundation.framework in Frameworks */,
+				57197985736519B215BB719B /* Security.framework in Frameworks */,
+				3E074DC44422AE77F4EE9661 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E053421967D576F9531F4A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30109365C22087F2CBCEA22B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D53F968F98C7C786ABAABAB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				65D1328FD7BCB943D3A5AFCF /* CoreGraphics.framework */,
+				E2AB73403EAEBF482066F754 /* CoreTelephony.framework */,
+				99EE7207DB05E2CA8CDEB448 /* Foundation.framework */,
+				E165AC1CB54ADBC77B6DD9ED /* Security.framework */,
+				11BF29B8280960445E55B281 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		15A128BFB1AA7EE1AB3D5620 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				901E4622CACE17BC12D8315A /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25BB420087087CA43282F20D /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				D235A26CFE43E4F78660F1DE /* QQApiInterface.h */,
+				570BB45DE99EF21A8EDE2C3D /* QQApiInterfaceObject.h */,
+				85353EEC8B853F5B5B5DFEFC /* TencentApiInterface.h */,
+				50485DA0521E8982F606BDE5 /* TencentMessageObject.h */,
+				C2075AF1A5C4657A9C08DA18 /* TencentOAuth.h */,
+				1FA8539972BD0F518D35AB6A /* TencentOAuthObject.h */,
+				0DCC277555A496F61FCDF734 /* WeiBoAPI.h */,
+				0A5EA69D4CFF4F6D011E688E /* WeiyunAPI.h */,
+				ACFC84E5A12AE8925AD686F1 /* sdkdef.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		6B22E78C82BE0848FDCCE5DE /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3292300B552EFEEC9CBD677F /* Pods-Tests-acknowledgements.markdown */,
+				1FEBDD188DF1ED882EBD5E65 /* Pods-Tests-acknowledgements.plist */,
+				9136109E923982ED0CF87243 /* Pods-Tests-dummy.m */,
+				EC8BEBBBE8BEDBA8783176AA /* Pods-Tests-environment.h */,
+				FFBD9D52379AC5198BAD3EB0 /* Pods-Tests-resources.sh */,
+				29671242A1FF14EC3609A960 /* Pods-Tests.debug.xcconfig */,
+				1D1DFC7362B32B2CDE885025 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		833F481E5D3F834E5A84809D = {
+			isa = PBXGroup;
+			children = (
+				8B1C0A6631E66DA7A7307B18 /* Podfile */,
+				A04B55D45616D1ACB59DA2F3 /* Development Pods */,
+				904FCFD3FE9154D0AE2BB021 /* Frameworks */,
+				C9A0B5F9A1E1F635D69DC5F9 /* Products */,
+				BB786857D26042065B9CAA99 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		904FCFD3FE9154D0AE2BB021 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D53F968F98C7C786ABAABAB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94BFC2F3579A31357A63C515 /* TencentOpenAPI.framework */ = {
+			isa = PBXGroup;
+			children = (
+				25BB420087087CA43282F20D /* Headers */,
+			);
+			path = TencentOpenAPI.framework;
+			sourceTree = "<group>";
+		};
+		A04B55D45616D1ACB59DA2F3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2C194D060ABD7D27D11E75C /* QQSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A11EC515ADD30EC72ABD67BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A701B5EBCDEBEDB5BDB8ED9F /* QQSDK */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A701B5EBCDEBEDB5BDB8ED9F /* QQSDK */ = {
+			isa = PBXGroup;
+			children = (
+				35CAD4C9D9BDE94127608A1E /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			path = QQSDK;
+			sourceTree = "<group>";
+		};
+		B067BF3A1E80431009178005 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27654CD3C1AF196B376CEA9A /* Pods-QQSDK-QQSDK.xcconfig */,
+				B6AF2B26C6DFE102C0A3D4C2 /* Pods-QQSDK-QQSDK-Private.xcconfig */,
+				E5C9FCEFCCF6129C21D11E7D /* Pods-QQSDK-QQSDK-dummy.m */,
+				9F7C7F31EFA9B61BDA901278 /* Pods-QQSDK-QQSDK-prefix.pch */,
+				3DB2706E4EEA94C4D07276F8 /* Pods-Tests-QQSDK.xcconfig */,
+				35FC134273BD0757FCFB3A18 /* Pods-Tests-QQSDK-Private.xcconfig */,
+				3C84D501B3C705E229065B10 /* Pods-Tests-QQSDK-dummy.m */,
+				DA820FF81F17053AF6AB385F /* Pods-Tests-QQSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-QQSDK-QQSDK";
+			sourceTree = "<group>";
+		};
+		BB786857D26042065B9CAA99 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D39BE96F94C89A5B16B13C85 /* Pods-QQSDK */,
+				6B22E78C82BE0848FDCCE5DE /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C2CD60010251C139311E27A5 /* QQSDK */ = {
+			isa = PBXGroup;
+			children = (
+				94BFC2F3579A31357A63C515 /* TencentOpenAPI.framework */,
+			);
+			path = QQSDK;
+			sourceTree = "<group>";
+		};
+		C9A0B5F9A1E1F635D69DC5F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD35C764A978A5B2059B3AD /* libPods-QQSDK.a */,
+				9EF465622487BBF7B490ED0C /* libPods-QQSDK-QQSDK.a */,
+				F02A50B8391D18687D7AE6F6 /* libPods-Tests.a */,
+				791B6B88E8C76E24EFC288E3 /* libPods-Tests-QQSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D39BE96F94C89A5B16B13C85 /* Pods-QQSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1531EF61459AF43F50ADD366 /* Pods-QQSDK-acknowledgements.markdown */,
+				89DD4597F714854A2F84D59B /* Pods-QQSDK-acknowledgements.plist */,
+				62B584E680C7257341475BAF /* Pods-QQSDK-dummy.m */,
+				027A59C5EA1B27856ADF678B /* Pods-QQSDK-environment.h */,
+				88BB07E5FAEC32CAD367603A /* Pods-QQSDK-resources.sh */,
+				2EE7EE15FA13DD1E4C8806EC /* Pods-QQSDK.debug.xcconfig */,
+				ED719B1735D7F2E8435A76BC /* Pods-QQSDK.release.xcconfig */,
+			);
+			name = "Pods-QQSDK";
+			path = "Target Support Files/Pods-QQSDK";
+			sourceTree = "<group>";
+		};
+		E2C194D060ABD7D27D11E75C /* QQSDK */ = {
+			isa = PBXGroup;
+			children = (
+				15A128BFB1AA7EE1AB3D5620 /* Frameworks */,
+				C2CD60010251C139311E27A5 /* QQSDK */,
+				A11EC515ADD30EC72ABD67BE /* Resources */,
+				B067BF3A1E80431009178005 /* Support Files */,
+			);
+			name = QQSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4BC63119C2A1507DBB663303 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FB316B2C1B260403CC7A5C /* QQApiInterface.h in Headers */,
+				7E2CB641FB1A0596CB3D7F18 /* QQApiInterfaceObject.h in Headers */,
+				5102665F56431FAB3A65D03F /* TencentApiInterface.h in Headers */,
+				385FF81B8768C8F8C0F46AF6 /* TencentMessageObject.h in Headers */,
+				F6F49CDF9984A96D2C0393DA /* TencentOAuth.h in Headers */,
+				A9F44DDD1B6D95572AFDAC32 /* TencentOAuthObject.h in Headers */,
+				E047CE3D091C21F7740FDD9A /* WeiBoAPI.h in Headers */,
+				A088779B5CC19A214EFD1C06 /* WeiyunAPI.h in Headers */,
+				AC8E4976BA3CB77DA7EBDB33 /* sdkdef.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920EA29AC1C8DBA99EB54BD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A991DB1B1E7B18E4603CA8 /* QQApiInterface.h in Headers */,
+				BA3D495290A613BDE9F25E5D /* QQApiInterfaceObject.h in Headers */,
+				6C0457A7AF1864202C655646 /* TencentApiInterface.h in Headers */,
+				90EB8AF622719E2D14BE9606 /* TencentMessageObject.h in Headers */,
+				D6E47259EE67D554856DF5A2 /* TencentOAuth.h in Headers */,
+				91F10DDE155AA3ABAE570283 /* TencentOAuthObject.h in Headers */,
+				C829304D34D8980EEAF41F58 /* WeiBoAPI.h in Headers */,
+				C2CD167434F34AE49190BE81 /* WeiyunAPI.h in Headers */,
+				ADE8BE41EDCFB7D6AA42D351 /* sdkdef.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		645F3F90F7E67C4DB6E07DBA /* Pods-Tests-QQSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81312D791D7820E6A2B690A3 /* Build configuration list for PBXNativeTarget "Pods-Tests-QQSDK" */;
+			buildPhases = (
+				626DC598B08525373162D239 /* Sources */,
+				1F680C7861DBA8F8520B55EE /* Frameworks */,
+				920EA29AC1C8DBA99EB54BD9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-QQSDK";
+			productName = "Pods-Tests-QQSDK";
+			productReference = 791B6B88E8C76E24EFC288E3 /* libPods-Tests-QQSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8C7C751C901CA6E4AE343FB0 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95FFFE89D3CEEAA70D84880 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				EEA1C1766E5EFDB691B2098C /* Sources */,
+				1F62C092A80C1213AFDBF073 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB0409992A15589C4B601555 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = F02A50B8391D18687D7AE6F6 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8DCDA78840BD58FF79D58C9B /* Pods-QQSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F654A8D581D5971976088CF5 /* Build configuration list for PBXNativeTarget "Pods-QQSDK" */;
+			buildPhases = (
+				7F535716DC44C047DE7933D1 /* Sources */,
+				E053421967D576F9531F4A4E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DE9182CE561E75040EAF376 /* PBXTargetDependency */,
+			);
+			name = "Pods-QQSDK";
+			productName = "Pods-QQSDK";
+			productReference = CAD35C764A978A5B2059B3AD /* libPods-QQSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E02B0878C44F1142FBD737CF /* Pods-QQSDK-QQSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F556E5867E730CECBF3E1EA /* Build configuration list for PBXNativeTarget "Pods-QQSDK-QQSDK" */;
+			buildPhases = (
+				CA46BC149484B2911038763A /* Sources */,
+				044DFEBC9252ADFDBFAA14DD /* Frameworks */,
+				4BC63119C2A1507DBB663303 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QQSDK-QQSDK";
+			productName = "Pods-QQSDK-QQSDK";
+			productReference = 9EF465622487BBF7B490ED0C /* libPods-QQSDK-QQSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C6C6FA40217EE8F92EDAB21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 0A9EC836FC4032B719340D27 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 833F481E5D3F834E5A84809D;
+			productRefGroup = C9A0B5F9A1E1F635D69DC5F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DCDA78840BD58FF79D58C9B /* Pods-QQSDK */,
+				E02B0878C44F1142FBD737CF /* Pods-QQSDK-QQSDK */,
+				8C7C751C901CA6E4AE343FB0 /* Pods-Tests */,
+				645F3F90F7E67C4DB6E07DBA /* Pods-Tests-QQSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		626DC598B08525373162D239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A37DE32FB144A1E02AD2F46 /* Pods-Tests-QQSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F535716DC44C047DE7933D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E54EB75573E436E5C79F466 /* Pods-QQSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA46BC149484B2911038763A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AB13A02272BA470C0B694C /* Pods-QQSDK-QQSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA1C1766E5EFDB691B2098C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABA32BDE371CCCF5EDA1BC0 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DE9182CE561E75040EAF376 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QQSDK-QQSDK";
+			target = E02B0878C44F1142FBD737CF /* Pods-QQSDK-QQSDK */;
+			targetProxy = 16A6A49DF36894F0909BC556 /* PBXContainerItemProxy */;
+		};
+		EB0409992A15589C4B601555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-QQSDK";
+			target = 645F3F90F7E67C4DB6E07DBA /* Pods-Tests-QQSDK */;
+			targetProxy = DA242FD4BCD3B9FA13B6886C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18646BCA84D84BC10CBE729E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35FC134273BD0757FCFB3A18 /* Pods-Tests-QQSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-QQSDK/Pods-Tests-QQSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3AD756909EB6E1FBC3F29DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AF2B26C6DFE102C0A3D4C2 /* Pods-QQSDK-QQSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-QQSDK-QQSDK/Pods-QQSDK-QQSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3B43E3189B395A190E24CBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EE7EE15FA13DD1E4C8806EC /* Pods-QQSDK.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3ECF36DFACEFDB7924EFFF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		55B92478BE75DC1F3B33E629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED719B1735D7F2E8435A76BC /* Pods-QQSDK.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		63783A761FE5085FC7C7F0FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29671242A1FF14EC3609A960 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7A926950A35A1CD318FF8560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BBFC949E54B0C2B8B4D1678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AF2B26C6DFE102C0A3D4C2 /* Pods-QQSDK-QQSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-QQSDK-QQSDK/Pods-QQSDK-QQSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D04C5CFA3ED75BC7FB6DB94C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D1DFC7362B32B2CDE885025 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E78257F7A9D7C3ED12285F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35FC134273BD0757FCFB3A18 /* Pods-Tests-QQSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-QQSDK/Pods-Tests-QQSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A9EC836FC4032B719340D27 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECF36DFACEFDB7924EFFF69 /* Debug */,
+				7A926950A35A1CD318FF8560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F556E5867E730CECBF3E1EA /* Build configuration list for PBXNativeTarget "Pods-QQSDK-QQSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD756909EB6E1FBC3F29DEB /* Debug */,
+				7BBFC949E54B0C2B8B4D1678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81312D791D7820E6A2B690A3 /* Build configuration list for PBXNativeTarget "Pods-Tests-QQSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78257F7A9D7C3ED12285F05 /* Debug */,
+				18646BCA84D84BC10CBE729E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A95FFFE89D3CEEAA70D84880 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63783A761FE5085FC7C7F0FD /* Debug */,
+				D04C5CFA3ED75BC7FB6DB94C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F654A8D581D5971976088CF5 /* Build configuration list for PBXNativeTarget "Pods-QQSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B43E3189B395A190E24CBC4 /* Debug */,
+				55B92478BE75DC1F3B33E629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C6C6FA40217EE8F92EDAB21 /* Project object */;
+}
